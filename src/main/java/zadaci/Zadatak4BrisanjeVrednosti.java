@@ -5,7 +5,7 @@ import com.j256.ormlite.support.ConnectionSource;
 
 import java.sql.SQLException;
 
-public class Zadatak4IzmenaVrednosti {
+public class Zadatak4BrisanjeVrednosti {
     public static void main(String[] args) {
         ConnectionSource connectionSource = null;
         try {
