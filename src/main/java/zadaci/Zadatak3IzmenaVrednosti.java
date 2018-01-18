@@ -24,7 +24,7 @@ public class Zadatak3IzmenaVrednosti {
 
         try{
             connectionSource = new JdbcConnectionSource("jdbc:sqlite:avionRoba.db");
-            
+
             avionDao = DaoManager.createDao(connectionSource, Avion.class);
             robaDao = DaoManager.createDao(connectionSource, Roba.class);
 
